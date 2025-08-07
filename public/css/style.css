@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+ 
+body {
+    padding:20px;
+}
+ 
+img {
+    width: 100px;
+    border-radius: 50% ;
+}
+ 
+.student-detail {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding:2rem;
+    margin-left: 300px;
+    justify-content: center;
+    width: 50rem;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+}
+ 
+.card {
+    display: flex;
+}
+ 
+.button {
+    display: flex;
+    gap: 2rem;
+}
+ 
+button {
+    padding:15px ;
+    border-radius: 10px;
+    border:none;
+}

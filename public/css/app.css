@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+ 
+body {
+    padding:20px;
+}
+ 
+img {
+    width: 100px;
+    border-radius: 50% ;
+}
+ 
+.student-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: 7rem auto;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+ 
+.card {
+    display: flex;
+}
+ 
+.button {
+    display: flex;
+    gap: 2rem;
+}
+ 
+button {
+    padding:15px ;
+    border-radius: 10px;
+    border:none;
+}
+ 
+.edit {
+    background-color:blue;
+    color:white;
+}
+ 
+.delete {
+    background-color:red;
+    color:white;
+}
+
+ 
+ 
